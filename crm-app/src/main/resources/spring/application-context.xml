@@ -14,7 +14,6 @@
 
 	<!-- Enable MVC Annotation -->
 	<mvc:annotation-driven />
-
 	<!-- Enable MVC resources(jsp,css,js,etc.) mapping location -->
 	<mvc:resources location="/resources/" mapping="/resources/**"></mvc:resources>
 
@@ -25,7 +24,7 @@
 		<property name="prefix" value="/WEB-INF/views/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
-	
+
 	<!-- Configuration of the data source bean -->
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
